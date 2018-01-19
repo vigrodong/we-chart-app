@@ -1,0 +1,33 @@
+<view class='apply'>
+  <text class="text">申请开始</text>
+      <picker mode="date" value="{{fromdate}}" start="2000-09-01" end="3000-21-01" bindchange="bindDateOneChange" class="pickerL">
+        <view class="picker">
+          日期: {{fromdate}}
+        </view>
+      </picker>
+      <picker mode="time" value="{{fromtime}}" start="00:00" end="23:59" bindchange="bindTimeOneChange" class="pickerR">
+        <view class="picker">
+          时间: {{fromtime}}
+        </view>
+      </picker>
+<text class="text">申请结束</text>
+   <picker mode="date" value="{{todate}}" start="2000-09-01" end="3000-21-01" bindchange="bindDateTwoChange" class="pickerL">
+        <view class="picker">
+          日期: {{todate}}
+        </view>
+   </picker>
+      <picker mode="time" value="{{totime}}" start="00:00" end="23:59" bindchange="bindTimeTwoChange" class="pickerR">
+        <view class="picker">
+          时间: {{totime}}
+        </view>
+      </picker>
+  <text class="text">审批人</text>
+
+    <checkbox-group bindchange="checkboxChange">
+      <label class="checkbox" wx:for="{{items}}" >
+        <checkbox value="{{item.name}}" checked="{{item.checked}}"/>
+        {{item.value}}
+      </label>
+    </checkbox-group>
+    <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" bindtap='send' class='send'> 提交  </button>
+</view>
