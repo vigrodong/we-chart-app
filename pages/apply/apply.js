@@ -12,6 +12,10 @@ Page({
     todate:'',
     totime:'',
   },
+  onLoad:function(){
+    // wx.request()
+    
+  },
   send:function(){
     var from = this.data.fromdate + ' ' + this.data.fromtime;
     var to = this.data.todate + ' ' + this.data.totime;
