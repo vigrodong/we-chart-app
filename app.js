@@ -13,6 +13,7 @@ App({
           success:resIn=>{
             if(!this.globalData.userInfo){
               this.globalData.userInfo = resIn.userInfo;
+              this.globalData.userAllInfo = resIn;
             }
             if (!this.globalData.session){
               wx.request({
@@ -23,7 +24,7 @@ App({
                   userinfo: resIn
                 },
                 success:res=>{
-                  console.log(res);
+                  this.globalData.token = res.data.token;
                 },
               })
             }
@@ -35,6 +36,7 @@ App({
   globalData: {
     domain: 'http://192.168.203.209:3000/api/',
     userInfo: null,
-    session:'',
+    token:'',
+    userAllInfo:null
   }
 })
