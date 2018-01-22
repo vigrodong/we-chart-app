@@ -1,5 +1,5 @@
 const app = getApp();
-console.log(app);
+
 const formatTime = date => {
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
@@ -33,7 +33,7 @@ const request = options => {
             },
           });
         }).catch((err) => {
-          request(options);
+          resolve(err);
         });
       },
     });
@@ -72,7 +72,15 @@ const login = () => {
     });
   });
 };
+const match = function(match) {
+  var split = String.prototype.split;
+  return function(str) {
+    return split.call(str, match);
+  };
+};
+
 module.exports = {
   formatTime: formatTime,
   request: request,
+  match: match,
 };
