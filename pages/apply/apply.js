@@ -76,7 +76,7 @@ Page({
       });
     }).catch((err)=>{
       wx.showToast({
-        title: '请求成功',
+        title: '请求失败',
         icon: 'success',
         duration: 2000,
       });

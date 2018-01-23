@@ -39,6 +39,12 @@
 					"name": "apply",
 					"pathName": "pages/apply/apply",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "records",
+					"pathName": "pages/records/record",
+					"query": ""
 				}
 			]
 		}

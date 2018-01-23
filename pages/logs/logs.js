@@ -11,5 +11,10 @@ Page({
     wx.navigateTo({
       url: '../apply/apply'
     })
+  },
+  openrecords:function(){
+    wx.navigateTo({
+      url: '../records/record'
+    })
   }
 })
