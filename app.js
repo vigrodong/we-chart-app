@@ -24,7 +24,7 @@ App({
                   userinfo: resIn
                 },
                 success:res=>{
-                  this.globalData.token = res.data.token;
+                  //this.globalData.token = res.data.token;
                 },
               })
             }
@@ -34,7 +34,8 @@ App({
     })  
   },
   globalData: {
-    domain: 'http://192.168.203.209:3000/api/',
+    // domain: 'http://192.168.203.209:3000/api/',
+    domain: 'http://localhost:8080/api/',
     userInfo: null,
     token:'',
     userAllInfo:null

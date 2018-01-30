@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81702893-8c63-47c0-a361-7f8b4e428da8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/records.record.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/records.record.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/records.record.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/records.record.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/records/record.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/records/record.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/records/record.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/records/record.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/records/record.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/records/record.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/records/record.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/records/record.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/ensure/ensure.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/ensure/ensure.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/ensure/ensure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/ensure/ensure.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/apply/apply.js" afterPath="$PROJECT_DIR$/pages/apply/apply.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/logs/logs.js" afterPath="$PROJECT_DIR$/pages/logs/logs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/logs/logs.wxml" afterPath="$PROJECT_DIR$/pages/logs/logs.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/logs/logs.wxss" afterPath="$PROJECT_DIR$/pages/logs/logs.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/records/record.js" afterPath="$PROJECT_DIR$/pages/records/record.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/records/record.json" afterPath="$PROJECT_DIR$/pages/records/record.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/records/record.wxml" afterPath="$PROJECT_DIR$/pages/records/record.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/records/record.wxss" afterPath="$PROJECT_DIR$/pages/records/record.wxss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.config.json" afterPath="$PROJECT_DIR$/project.config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/util.js" afterPath="$PROJECT_DIR$/utils/util.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +33,15 @@
             <state relative-caret-position="270">
               <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
-                <marker date="1516589412000" expanded="true" signature="882:990" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
+                <marker date="1517298454000" expanded="true" signature="39:733" ph="{...}" />
+                <marker date="1517298454000" expanded="true" signature="170:733" ph="{...}" />
+                <marker date="1517298454000" expanded="true" signature="191:733" ph="{...}" />
+                <marker date="1517298454000" expanded="true" signature="216:733" ph="{...}" />
+                <marker date="1517298454000" expanded="true" signature="243:733" ph="{...}" />
+                <marker date="1517298454000" expanded="true" signature="451:733" ph="{...}" />
+                <marker date="1517298454000" expanded="true" signature="478:733" ph="{&quot;method&quot;: 'POST'...}" />
+                <marker date="1517298454000" expanded="true" signature="713:733" ph="{...}" />
+                <marker date="1517298454000" expanded="true" signature="970:1037" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
               </folding>
             </state>
           </provider>
@@ -46,8 +50,8 @@
       <file leaf-file-name="apply.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/apply/apply.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="284">
+              <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -56,9 +60,11 @@
       <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="1200">
+              <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+              <folding>
+                <marker date="1517298420000" expanded="true" signature="493:497" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,9 +106,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
+    <option name="x" value="41" />
     <option name="y" value="23" />
-    <option name="width" value="1234" />
+    <option name="width" value="1239" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -121,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -150,7 +157,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -279,7 +285,8 @@
       <workItem from="1516326391182" duration="664000" />
       <workItem from="1516582720528" duration="27000" />
       <workItem from="1516582756774" duration="4559000" />
-      <workItem from="1516693295782" duration="66000" />
+      <workItem from="1516693295782" duration="655000" />
+      <workItem from="1517299734277" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="修改登录状态">
       <created>1516353710802</created>
@@ -302,14 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1516606408748</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add a lot of pages">
+      <created>1516693384854</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516693384854</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6356000" />
+    <option name="totallyTimeSpent" value="6975000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1234" height="777" extended-state="6" />
+    <frame x="41" y="23" width="1239" height="777" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -320,13 +334,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26677853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2706767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -352,7 +366,8 @@
     <MESSAGE value="修改登录状态" />
     <MESSAGE value="封装所有request请求" />
     <MESSAGE value="fuck" />
-    <option name="LAST_COMMIT_MESSAGE" value="fuck" />
+    <MESSAGE value="add a lot of pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a lot of pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -364,7 +379,15 @@
         <state relative-caret-position="270">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
-            <marker date="1516589412000" expanded="true" signature="882:990" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
+            <marker date="1517298454000" expanded="true" signature="39:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="170:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="191:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="216:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="243:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="451:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="478:733" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1517298454000" expanded="true" signature="713:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="970:1037" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
           </folding>
         </state>
       </provider>
@@ -373,7 +396,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding>
+            <marker date="1517298420000" expanded="true" signature="493:497" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/apply/apply.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/apply/apply.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <marker date="1517298454000" expanded="true" signature="39:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="170:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="191:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="216:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="243:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="451:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="478:733" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1517298454000" expanded="true" signature="713:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="970:1037" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding>
+            <marker date="1517298420000" expanded="true" signature="493:497" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,7 +467,15 @@
         <state relative-caret-position="135">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
-            <marker date="1516589412000" expanded="true" signature="882:990" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
+            <marker date="1517298454000" expanded="true" signature="39:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="170:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="191:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="216:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="243:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="451:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="478:733" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1517298454000" expanded="true" signature="713:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="970:1037" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
           </folding>
         </state>
       </provider>
@@ -424,7 +501,15 @@
         <state relative-caret-position="135">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
-            <marker date="1516589412000" expanded="true" signature="882:990" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
+            <marker date="1517298454000" expanded="true" signature="39:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="170:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="191:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="216:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="243:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="451:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="478:733" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1517298454000" expanded="true" signature="713:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="970:1037" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
           </folding>
         </state>
       </provider>
@@ -458,23 +543,33 @@
         <state relative-caret-position="270">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
-            <marker date="1516589412000" expanded="true" signature="882:990" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
+            <marker date="1517298454000" expanded="true" signature="39:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="170:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="191:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="216:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="243:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="451:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="478:733" ph="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1517298454000" expanded="true" signature="713:733" ph="{...}" />
+            <marker date="1517298454000" expanded="true" signature="970:1037" ph="{&quot;domain&quot;: 'http://192.168.203.209:3000/api/'...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="1200">
+          <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+          <folding>
+            <marker date="1517298420000" expanded="true" signature="493:497" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/apply/apply.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="284">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding />
         </state>
       </provider>

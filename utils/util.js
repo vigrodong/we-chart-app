@@ -18,6 +18,10 @@ const formatNumber = n => {
 };
 
 const request = options => {
+  if(!options.header){
+    options.header={};
+  }
+  options.header.token = app.globalData.token;
   return new Promise((resolve, reject) => {
     wx.request({
       ...options,
@@ -78,6 +82,7 @@ const match = function(match) {
     return split.call(str, match);
   };
 };
+const find = a=>b=a+b;
 
 module.exports = {
   formatTime: formatTime,

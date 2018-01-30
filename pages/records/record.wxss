@@ -5,7 +5,7 @@
     flex-wrap:wrap;
     justify-content:center;
     padding-top: 30px;
-    font-family: "Times New Roman",Georgia,Serif;
+    font-family:Arial,Verdana,Sans-serif;
     font-size:14px;
 } 
 .record{

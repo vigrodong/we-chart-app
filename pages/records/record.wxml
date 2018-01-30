@@ -1,7 +1,7 @@
 <view class="records">
   <view class="{{'record' + ' ' + item.state}}" wx:for="{{list}}" wx:key="item.id">
     <text class='who'>申请人：{{item.name + '\n'}}</text>
-    <text class='time'>申请时间：{{item.fromtime+ '  --  '+ item.totime+'\n'}}</text>
+    <text class='time'>申请时间：{{item.fromtime+ '--'+ item.totime+'\n'}}</text>
     <text>向谁申请：{{item.applyfor+'\n'}}</text>
     <text>申请状态：{{item.state=='success'?'通过':'申请中'}}</text>
   </view>
